@@ -5,7 +5,5 @@ Découvrir MySQL avec PHP
 
 ### Liens utiles
 [Cours SQL](http://http://sql.sh/)
-
 [MySQL](http://dev.mysql.com/doc/)
 
-[google] (http://www.google.com "link to google")
