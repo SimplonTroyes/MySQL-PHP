@@ -34,4 +34,28 @@ WHERE ville_pro='Saint Julien' OR ville_pro = 'Troyes';
 SELECT COUNT(num_ch) as TotalNbChiens
 FROM chiens;
 11
+SELECT nom_ch,nom_al
+FROM chiens
+INNER JOIN manger
+ON chiens.num_ch = manger.num_ch_
+INNER JOIN aliments
+ON manger.code_al_ = aliments.code_al
+WHERE nom_ch='balou';
+12
+DELETE FROM manger
+WHERE daterepas < '2012-02-01';
+13
 
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
