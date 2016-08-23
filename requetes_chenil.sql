@@ -45,9 +45,16 @@ WHERE nom_ch='balou';
 DELETE FROM manger
 WHERE daterepas < '2012-02-01';
 13
-
+UPDATE cages
+SET nbmax_ch = 1 WHERE surface < 4;
 14
-
+SELECT * FROM
+  (SELECT num_cage, (nbmax_ch - COUNT(num_ch)) AS TropPlein
+  FROM cages
+  LEFT JOIN chiens
+  ON cages.num_cage = chiens.num_cage_
+  GROUP BY num_cage)
+AS CageNb WHERE TropPlein > 0;
 15
 
 16
