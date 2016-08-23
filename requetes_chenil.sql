@@ -24,3 +24,14 @@ FROM proprietaires
 INNER JOIN chiens
 ON chiens.code_pro_ = proprietaires.code_pro
 ORDER BY num_cage_,nom_ch ASC;
+9
+SELECT nom_ch, nom_pro, ville_pro
+FROM chiens
+INNER JOIN proprietaires
+ON chiens.code_pro_ = proprietaires.code_pro
+WHERE ville_pro='Saint Julien' OR ville_pro = 'Troyes';
+10
+SELECT COUNT(num_ch) as TotalNbChiens
+FROM chiens;
+11
+
