@@ -1,0 +1,18 @@
+RewriteBase /home/u121365435464/public_html/chenil2/
+Options +FollowSymlinks
+RewriteEngine On
+
+# Règles
+RewriteRule ^$ controller/c_index.php [L,C]
+RewriteRule ^index$ controller/c_index.php [L]
+
+# Exemple : RewriteRule ^/anchor/(.+)/bigpage.html#$1 [NE,R]
+# et ? => convertis
+%23
+
+# bigpage.html%23anchor => 404
+# bigpage.html#anchor
+
+
+[NE] = No Escape
+[R] = Redirect => redirection du navigateur
