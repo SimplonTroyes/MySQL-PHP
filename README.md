@@ -18,3 +18,7 @@ Exemple de fichier c_accueil.php :
     include ('m_accueil.php');  
     include ('v_accueil.php');  
     ?>`  
+    
+    
+Lien vers le chenil et fichiers correspondants :  
+* [Chenil](https://github.com/simplontroyes/PHP/chenil)
