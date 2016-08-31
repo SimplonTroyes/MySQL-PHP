@@ -20,5 +20,5 @@ Exemple de fichier c_accueil.php :
     ?>`  
     
     
-Lien vers le chenil et fichiers correspondants :  
-* [Chenil](https://github.com/SimplonTroyes/PHP/tree/master/chenil3)
+Le dossier **chenil3** contient un exemple de fonctions, de modèle et de vue. Il y a aussi le fichier htaccess.  
+
