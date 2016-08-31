@@ -21,4 +21,4 @@ Exemple de fichier c_accueil.php :
     
     
 Lien vers le chenil et fichiers correspondants :  
-* [Chenil](https://github.com/simplontroyes/PHP/chenil)
+* [Chenil](https://github.com/SimplonTroyes/PHP/tree/master/chenil3)
